@@ -1,0 +1,63 @@
+*{
+  color:white;
+  font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+
+.calc, button{
+  background-color: #010819;
+}
+.calc {
+  box-shadow:20px 15px 10px grey;
+  width: 400px;
+  margin: auto;
+  padding-top:2px;
+
+
+}
+.display {
+  height: 180px;
+  background-color: #031744;
+  font-size: 60px;
+}
+
+#expression-display{
+  height:30px;
+  background-color: #031744;
+  border-top:dashed 5px #010819;
+  bottom: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.display, #expression-display{
+  padding-right: 10px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+/* font-size 0 to remove white spaces from the inline block elements (button)*/
+.keyboard{
+  font-size: 0;
+}
+
+button{
+  width:25%;
+  height:87px;
+  border:none;
+  font-size: 25px;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  
+} 
+.equals{
+  width:50%;
+  background-color: #0B7946;
+}
+
+button:hover{
+  background-color: #052A55;
+}
+button:active, button.active{
+  background-color: #051F55;
+}
