@@ -21,7 +21,12 @@ $(document).ready(function(){
 	// Show the results and confirm that Equals was pressed
 	function result(){
 		var x = document.getElementById("expression").innerHTML;
-		$('#result').html(math.eval(x));
+		try{
+			$('#result').html(math.eval(x));
+		} catch(error){
+			alert(error);
+		}
+		//$('#result').html(math.eval(x));
 		confirmEquals = true;
 	}
 

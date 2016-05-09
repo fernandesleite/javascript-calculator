@@ -3,14 +3,22 @@
   font-family: 'Open Sans',Helvetica,Arial,sans-serif;
 }
 
+html{
+  height: 100%;
+}
+body{
+  margin-top:50px;
+  background:linear-gradient(to bottom, #031744, #010819);
+}
+
 .calc, button{
   background-color: #010819;
 }
-.calc {
-  box-shadow:20px 15px 10px grey;
+.calc { 
+  box-shadow:20px 15px 10px rgba(0, 0, 0, 0.5);
   width: 400px;
   margin: auto;
-  padding-top:2px;
+  padding-top:1px;
 
 
 }
